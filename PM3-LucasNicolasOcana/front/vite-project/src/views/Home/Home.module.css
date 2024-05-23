@@ -1,0 +1,30 @@
+body {
+  background-color: gray;
+}
+
+.container {
+  width: calc(
+    100% - 40px
+  ); /* Calcula el ancho para ocupar todo el ancho disponible */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px; /* Añade un espacio alrededor del contenido */
+  background: #234452;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  margin-top: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.paragraph {
+  font-size: 1.5rem; /* Tamaño de fuente normal para los párrafos */
+  line-height: 1; /* Espaciado entre líneas */
+  color: white;
+}
+
+.paragraph p {
+  margin-bottom: 10px; /* Espacio inferior entre párrafos */
+}
+.paragraph h2 {
+  color: black;
+  text-align: center;
+}

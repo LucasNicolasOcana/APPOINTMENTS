@@ -1,0 +1,27 @@
+.turno {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: x-large;
+  font-family: sans-serif;
+  border-radius: 10px;
+  background: #234452;
+  margin-top: 25px;
+}
+
+.turno p {
+  margin: 0;
+}
+
+.activo {
+  background: green;
+}
+
+.cancelado {
+  background: red;
+}
